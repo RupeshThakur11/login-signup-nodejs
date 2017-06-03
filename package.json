@@ -1,0 +1,32 @@
+{
+  "name": "node-login-signup",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~3.4.4",
+    "ejs": "~0.8.5",
+    "mongoose": "~3.8.1",
+    "passport": "~0.1.17",
+    "passport-local": "~0.1.6",
+    "passport-facebook": "~1.0.2",
+    "passport-twitter": "~1.0.2",
+    "passport-google-oauth": "~0.1.5",
+    "connect-flash": "~0.1.1",
+    "bcrypt-nodejs": "latest"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "1.0.0",
+  "description": "nodejs login signup ",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rkdaredevil/login-signup-nodejs.git"
+  },
+  "author": "rupesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rkdaredevil/login-signup-nodejs/issues"
+  },
+  "homepage": "https://github.com/rkdaredevil/login-signup-nodejs#readme"
+}
